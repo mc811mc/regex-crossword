@@ -1,4 +1,4 @@
-# Regex Crossword Solutions with Explainations 
+# Regex Crossword Solutions with Explanations 
 
 ### Tutorial
 
@@ -11,3 +11,7 @@
 Explaination: 
 * A&#124;Z equals `A` or `Z`
 * A&#124;B equals `A` or `B`
+
+## For More Regex Resources
+
+[RegExr: Learn, Build, & Test RegEx](https://regexr.com/)
