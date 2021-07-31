@@ -20,7 +20,7 @@ Explaination:
 
 |                 | \[ABC\] |
 |:---------------:|:--------:|
-| \[BDF\]  | B        |
+| <b>\[BDF\]<\b>  | B        |
 
 Explaination: 
 * \[ABC\] equals one or more of the letters of  `ABC`
@@ -31,7 +31,7 @@ Explaination:
 
 |                 | \[^AB\] |
 |:---------------:|:--------:|
-| \[ABC\]  | C        |
+| <b>\[ABC\]<\b>  | C        |
 
 Explaination: 
 * \[^AB\] equals letters except `A` and `B`
@@ -41,9 +41,8 @@ Explaination:
 
 |          | A\*      |
 |:--------:|:--------:|
-| A        |    A     |
-|:--------:|:--------:|
-| AB\*     |    A     |
+| <b>A<\b>        |    A     |
+| <b>AB\*<\b>     |    A     |
 
 Explaination: 
 * A\* equals zero or more `A`
