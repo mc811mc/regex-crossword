@@ -2,7 +2,7 @@
 
 |                 | A&#124;B |
 |:---------------:|:--------:|
-| <b>A|Z | A        |
+| <b>A\|Z | A        |
 
 Explaination: 
 * A&#124;Z equals `A` or `Z`
