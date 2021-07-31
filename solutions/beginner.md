@@ -2,8 +2,8 @@
 
 |                  | [^SPEAK]+ | EP\|IP\|EF |
 |:----------------:|:---------:|:-------: |
-| <b>HE\|LL\|O+<\b>  | H         | E        |
-| <b>[PLEASE]+<\b> | L         | P        |
+| <b>HE\|LL\|O+<b>  | H         | E        |
+| <b>[PLEASE]+ | L         | P        |
 
 Explaination: 
 * [^SPEAK]+ equals 1 or more of a character not from `SPEAK`
