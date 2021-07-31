@@ -5,7 +5,7 @@
 | <b>HE\|LL\|O+  | H         | E        |
 | <b>[PLEASE]+ | L         | P        |
 
-Explaination: 
+Explanation: 
 * [^SPEAK]+ equals 1 or more of a character not from `SPEAK`
 * EP\|IP\|EF equals `EP` or `IP` or `EF`
 * HE\|LL\|O+ equals `HE` or `LL` or 1 or more of `O`
@@ -18,7 +18,7 @@ Explaination:
 | <b>.\*M?O.\*  | B         | O          |
 | <b>(AN|FE|BE) | B         | E          |
 
-Explaination: 
+Explanation: 
 * (A|B|C)\1 equals backreference to group `A|B|C` where group is `A` or `B` or `C`
 * (AB|OE|SK) equals a group of `AB` or `OE` or `SK`
 * .\*M?O.\* equals 0 or more of any character except newline followed by 0 or 1 `M` followed by a `O` followed by 0 or more of any character except newline
@@ -31,7 +31,7 @@ Explaination:
 | <b>(.)+\1   | B        | O          |
 | <b>[^ABRC]+ | B        | E          |
 
-Explaination: 
+Explanation: 
 * [COBRA]+ equals 1 or more of a character from `COBRA`
 * (AB|O|OR)+ equals 1 or more of a group of `AB` or `O` or `OR`
 * (.)+\1 equals backreference to 1 or more of a group of any character except newline e
@@ -44,7 +44,7 @@ Explaination:
 | <b>[*]+ | *    | *  |
 | <b>/+   | /    | /  |
 
-Explaination: 
+Explanation: 
 * .?.+ equals 0 or 1 of any character except newline followed by 1 or more of any character except newline
 * .+ equals 1 or more of any character except newline
 * [*]+ equals 1 or more of the character `*`  
@@ -57,7 +57,7 @@ Explaination:
 | <b>18\|19\|20 | *        | *        |
 | <b>[6789]\d | /        | /        |
 
-Explaination: 
+Explanation: 
 * \d[2480] equals any digit followed by any digit from `2480` (The result will be a two digit number)
 * 56|94|73 equals `56` or `94` or `73`
 * 18|19|20 equals `18` or `19` or `20`  

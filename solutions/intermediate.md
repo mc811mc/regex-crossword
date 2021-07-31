@@ -5,7 +5,7 @@
 | <b>[NOTAD]*      | A          | T       | O       |
 | <b>WEL\|BAL\|EAR | W          | E       | L       |
 
-Explaination: 
+Explanation: 
 * UB|IE|AW equals  `UB` or `IE` or `AW`
 * [TUBE]* equals 0 or more of a character from `TUBE`
 * [BORF]. equals a character from `BORF` followed by any character except newline
@@ -20,7 +20,7 @@ Explaination:
 | <b>[ALP]+K    | L             | K       |
 | <b>(PR\|ER\|EP) | E             | R       |
 
-Explaination: 
+Explanation: 
 * \[BQW]\(PR\|LE) equals a character from `BQW` followed by a group of `PR` or `LE`
 * [RANK]+ equals 1 or more of a character from `RANK`
 * [AWE]+ equals 1 or more of a character from `AWE`
@@ -35,7 +35,7 @@ Explaination:
 | <b>RY\|TY\-     | T      | Y        | -
 | <b>[TOWEL]*    | T      | W        | O
 
-Explaination: 
+Explanation: 
 * .(.)\1 equals 1 or more of any character except newline followed by a backreference to a group of any character except newline
 * .*[WAY]+ equals 1 or more of any character except newline followed by 1 or more of a chracter from `WAY`a group of `AB` or `O` or `OR`
 * [RAM].[OH] equals a character from `RAM` followed by any character except newline followed by a character from `OH`
@@ -51,7 +51,7 @@ Explaination:
 | <b>[^DJNU]P[ABC] | T        | P             | A
 | <b>[ICAN]*       | N        | I             | C
 
-Explaination: 
+Explanation: 
 * [JUNDT]* equals 1 or more of a character from `JUNDT`
 * APA|OPI|OLK equals `APA` or `OPI` or `OLK`
 * (NA|FE|HE)[CV] equals `NA` or `FE` or `HE` followed by a character from `CV`
@@ -67,8 +67,7 @@ Explaination:
 | <b>O.*[HAT] | O              | F            | F           | A       |
 | <b>(.)*DO\1 | N              | D            | O           | N       |
 
-Explaination: 
-
+Explanation: 
 * \[^NRU]\(NO|ON) equals a character not from `NRU` followed by group of `NO` or `ON`
 * (D|FU|UF)+ equals 1 or more of group of `D` or `FU` or `UF`
 * (FO|A|R)* equals 0 or more of group of `FO` or `A` or `R`
@@ -76,4 +75,4 @@ Explaination:
 
 * [RUNT]* equals 1 or more of a character from `RUNT`
 * O.*[HAT] equals `O` followed by 1 or more of any character except newline followed by a character from `HAT`
-* (.)*DO\1 equals 0 or more of group of `*` followed by `DO` followed by a backreference to 1st group, `*`
+* (.)*DO\1 equals 0 or more of group of `*` followed by`DO` followed by a backreference to 1st group, `*`
