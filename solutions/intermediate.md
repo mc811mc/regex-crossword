@@ -14,14 +14,14 @@ Explaination:
 
 ### Johnny
 
-|               | [BQW](PR\|LE) | [RANK]+ |
+|               | \[BQW\](PR\|LE) | [RANK]+ |
 |:-------------:|:-------------:|:-------:|
 | <b>[AWE]+     | W             | A       |
 | <b>[ALP]+K    | L             | K       |
 | <b>(PR\|ER\|EP) | E             | R       |
 
 Explaination: 
-* [BQW](PR\|LE) equals a character from `BQW` followed by a group of `PR` or `LE`
+* \[BQW]\(PR\|LE) equals a character from `BQW` followed by a group of `PR` or `LE`
 * [RANK]+ equals 1 or more of a character from `RANK`
 * [AWE]+ equals 1 or more of a character from `AWE`
 * [ALP]+K equals 1 or more of a character from `ALP` followed by a `K`
@@ -61,7 +61,7 @@ Explaination:
 
 ### Technology
 
-|             | [^NRU](NO\|ON) | (D\|FU\|UF)+ | (FO\|A\|R)* | (N\|A)* |
+|             | \[^NRU\](NO\|ON) | (D\|FU\|UF)+ | (FO\|A\|R)* | (N\|A)* |
 |:-----------:|:--------------:|:------------:|:-----------:|:-------:|
 | <b>[RUNT]*  | T              | U            | R           | N       |
 | <b>O.*[HAT] | O              | F            | F           | A       |
@@ -69,7 +69,7 @@ Explaination:
 
 Explaination: 
 
-* [^NRU](NO|ON) equals a character not from `NRU` followed by group of `NO` or `ON`
+* \[^NRU]\(NO|ON) equals a character not from `NRU` followed by group of `NO` or `ON`
 * (D|FU|UF)+ equals 1 or more of group of `D` or `FU` or `UF`
 * (FO|A|R)* equals 0 or more of group of `FO` or `A` or `R`
 * (N|A)* equals 0 or more of group of `N` or `A`
