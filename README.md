@@ -6,7 +6,7 @@ Similar to a sudoku puzzle, fill in the blanks with letters that both satisfy th
 
 ## Table of Contents
 
-### [Tutorial](solutions\tutorial.md)
+### [Tutorial](mc811mc/regex-crossword/solutions/tutorial.md)
 ## For More Regex Resources
   
 [RegExr: Learn, Build, & Test RegEx](https://regexr.com/)
