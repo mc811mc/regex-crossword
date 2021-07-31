@@ -19,7 +19,7 @@ Explaination:
 * \[BDF\] equals 1 or more of the letters of  `BDF`
 
 
-#### Charactrs NOT to include
+#### Characters NOT to include
 
 |                | \[^AB\] |
 |:--------------:|:-------:|
