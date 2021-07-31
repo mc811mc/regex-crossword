@@ -76,4 +76,4 @@ Explaination:
 
 * [RUNT]* equals 1 or more of a character from `RUNT`
 * O.*[HAT] equals `O` followed by 1 or more of any character except newline followed by a character from `HAT`
-* (.)*DO\1 equals 0 or more of group of `*` followed `DO` followed by a backreference to 1st group, `*`
+* (.)*DO\1 equals 0 or more of group of `*` followed by `DO` followed by a backreference to 1st group, `*`
