@@ -1,9 +1,9 @@
 ### Always remember
 
 |                  | UB\|IE\|AW | [TUBE]* | [BORF]. |
-|:----------------:|:---------:|:-------: |
-| <b>[NOTAD]*  | H         | E        |
-| <b>WEL\|BAL\|EAR | L         | P        |
+|:----------------:|:----------:|:-------:|:-------:|
+| <b>[NOTAD]*      | A          | T       | O       |
+| <b>WEL\|BAL\|EAR | W          | E       | L       |
 
 Explaination: 
 * UB|IE|AW equals  `UB` or `IE` or `AW`
