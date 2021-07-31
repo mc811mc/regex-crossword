@@ -2,7 +2,7 @@
 
 |                  | [^SPEAK]+ | EP\|IP\|EF |
 |:----------------:|:---------:|:-------: |
-| <b>HE\|LL\|O+<b>  | H         | E        |
+| <b>HE\|LL\|O+  | H         | E        |
 | <b>[PLEASE]+ | L         | P        |
 
 Explaination: 
@@ -15,8 +15,8 @@ Explaination:
 
 |                   | (A\|B\|C)\1 | (AB\|OE\|SK) |
 |:-----------------:|:---------:|:----------:|
-| <b>.\*M?O.\*<\b>  | B         | O          |
-| <b>(AN|FE|BE)<\b> | B         | E          |
+| <b>.\*M?O.\*  | B         | O          |
+| <b>(AN|FE|BE) | B         | E          |
 
 Explaination: 
 * (A|B|C)\1 equals backreference to group `A|B|C` where group is `A` or `B` or `C`
@@ -28,8 +28,8 @@ Explaination:
 
 |                 | [COBRA]+ | (AB\|O\|OR)+ |
 |:---------------:|:--------:|:----------:|
-| <b>(.)+\1<\b>   | B        | O          |
-| <b>[^ABRC]+<\b> | B        | E          |
+| <b>(.)+\1   | B        | O          |
+| <b>[^ABRC]+ | B        | E          |
 
 Explaination: 
 * [COBRA]+ equals 1 or more of a character from `COBRA`
@@ -41,8 +41,8 @@ Explaination:
 
 |             | .?.+ | .+ |
 |:-----------:|:----:|:-: |
-| <b>[*]+<\b> | *    | *  |
-| <b>/+<\b>   | /    | /  |
+| <b>[*]+ | *    | *  |
+| <b>/+   | /    | /  |
 
 Explaination: 
 * .?.+ equals 0 or 1 of any character except newline followed by 1 or more of any character except newline
@@ -54,8 +54,8 @@ Explaination:
 
 |                 | \d[2480] | 56\|94\|73 |
 |:---------------:|:--------:|:--------:|
-| <b>18\|19\|20<\b> | *        | *        |
-| <b>[6789]\d<\b> | /        | /        |
+| <b>18\|19\|20 | *        | *        |
+| <b>[6789]\d | /        | /        |
 
 Explaination: 
 * \d[2480] equals any digit followed by any digit from `2480` (The result will be a two digit number)
