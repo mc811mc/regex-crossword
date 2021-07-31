@@ -19,7 +19,7 @@ I noticed that most repositories didn't include explanations so I added them to 
 
 ## For More Regex Resources
 
-[Regex Crossword Solutions Youtube Solutions by ChaelCodes](https://www.youtube.com/watch?v=FuwRobXyYlM&list=PLJgbigg8xpeXg70b0FpxPC5gv4zb1PEzY)
-[Regular Expressions Cheat Sheet](https://cheatography.com/davechild/cheat-sheets/regular-expressions/)
-[RegExr: Learn, Build, & Test RegEx](https://regexr.com/)
-[Regex Crossword Player Puzzles](https://regexcrossword.com/playerpuzzles)
+[Regex Crossword Solutions Youtube Solutions by ChaelCodes](https://www.youtube.com/watch?v=FuwRobXyYlM&list=PLJgbigg8xpeXg70b0FpxPC5gv4zb1PEzY)<br />
+[Regular Expressions Cheat Sheet](https://cheatography.com/davechild/cheat-sheets/regular-expressions/)<br />
+[RegExr: Learn, Build, & Test RegEx](https://regexr.com/)<br />
+[Regex Crossword Player Puzzles](https://regexcrossword.com/playerpuzzles)<br />
