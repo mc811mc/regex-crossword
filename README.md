@@ -18,9 +18,9 @@ Explaination:
 
 #### A Range of characters
 
-|                 | \[ABC\] |
-|:---------------:|:--------:|
-| <b>\[BDF\]<\b>  | B        |
+|               | [ABC] |
+|:-------------:|:-----:|
+| <b>[BDF]<\b>  | B     |
 
 Explaination: 
 * \[ABC\] equals one or more of the letters of  `ABC`
@@ -29,9 +29,9 @@ Explaination:
 
 #### Charactrs NOT to include
 
-|                 | \[^AB\] |
-|:---------------:|:--------:|
-| <b>\[ABC\]<\b>  | C        |
+|                | \[^AB\] |
+|:--------------:|:-------:|
+| <b>\[ABC\]<\b> | C       |
 
 Explaination: 
 * \[^AB\] equals letters except `A` and `B`
@@ -39,10 +39,10 @@ Explaination:
 
 #### Zero or more
 
-|          | A\*      |
-|:--------:|:--------:|
-| <b>A<\b>        |    A     |
-| <b>AB\*<\b>     |    A     |
+|             | A\*      |
+|:-----------:|:--------:|
+| <b>A<\b>    | A        |
+| <b>AB\*<\b> | A        |
 
 Explaination: 
 * A\* equals zero or more `A`
