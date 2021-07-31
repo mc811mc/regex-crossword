@@ -1,4 +1,4 @@
-#### The OR Symbol
+### The OR Symbol
 
 |                 | A&#124;B |
 |:---------------:|:--------:|
@@ -8,7 +8,7 @@ Explaination:
 * A&#124;Z equals `A` or `Z`
 * A&#124;B equals `A` or `B`
 
-#### A Range of characters
+### A Range of characters
 
 |               | [ABC] |
 |:-------------:|:-----:|
@@ -19,7 +19,7 @@ Explaination:
 * \[BDF\] equals 1 or more of the letters of  `BDF`
 
 
-#### Characters NOT to include
+### Characters NOT to include
 
 |                | \[^AB\] |
 |:--------------:|:-------:|
@@ -29,7 +29,7 @@ Explaination:
 * \[^AB\] equals letters except `A` and `B`
 * \[BDF\] equals 1 or more of the letters of `ABC`
 
-#### Zero or more
+### Zero or more
 
 |             | A\*      |
 |:-----------:|:--------:|
@@ -41,7 +41,7 @@ Explaination:
 * A equals `A`
 * AB\* equals `A` followed by 0 or more `B`
 
-#### Zero or one
+### Zero or one
 
 |            | A?B? |
 |:----------:|:----:|
@@ -53,7 +53,7 @@ Explaination:
 * A|C equals `A` or `C`
 * B equals `B`  
   
-#### One or more
+### One or more
 
 |            | A+ |
 |:----------:|:--:|
@@ -65,7 +65,7 @@ Explaination:
 * A|B equals `A` or `B`
 * A|Z equals `A` or `Z`   
   
-#### Backreference
+### Backreference
 
 |            | (A)\1 |
 |:----------:|:-----:|
@@ -77,7 +77,7 @@ Explaination:
 * A|B equals `A` or `B`
 * A|B equals `A` or `B`
 
-#### Specific amount
+### Specific amount
 
 |             | A{2,} |
 |:-----------:|:-----:|
@@ -89,7 +89,7 @@ Explaination:
 * A{1} equals only 1 `A`
 * B|A equals `B` or `A`
 
-#### Space
+### Space
 
 |           | A|\s |
 |:---------:|:----:|
