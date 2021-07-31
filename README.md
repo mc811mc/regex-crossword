@@ -20,11 +20,35 @@ Explaination:
 
 |                 | \[ABC\] |
 |:---------------:|:--------:|
-| \[BDF\] | B        |
+| \[BDF\]  | B        |
 
 Explaination: 
-* \[ABC\] equals one of the letters of `ABC`
-* \[BDF\] equals one of the letters of `BDF`
+* \[ABC\] equals one or more of the letters of  `ABC`
+* \[BDF\] equals one or more of the letters of  `BDF`
+
+
+#### Charactrs NOT to include
+
+|                 | \[^AB\] |
+|:---------------:|:--------:|
+| \[ABC\]  | C        |
+
+Explaination: 
+* \[^AB\] equals letters except `A` and `B`
+* \[BDF\] equals one or more of the letters of `ABC`
+
+#### Zero or more
+
+|          | A\*      |
+|:--------:|:--------:|
+| A        |    A     |
+|:--------:|:--------:|
+| AB\*     |    A     |
+
+Explaination: 
+* A\* equals zero or more `A`
+* A equals `A`
+* AB\* equals `A` followed by zero or more `B`
 
 ## For More Regex Resources
 
