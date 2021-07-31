@@ -1,19 +1,19 @@
 ### Beatles
 
-|                  | [^SPEAK]+ | EP|IP|EF |
+|                  | [^SPEAK]+ | EP\|IP\|EF |
 |:----------------:|:---------:|:-------: |
-| <b>HE|LL|O+<\b>  | H         | E        |
+| <b>HE\|LL\|O+<\b>  | H         | E        |
 | <b>[PLEASE]+<\b> | L         | P        |
 
 Explaination: 
 * [^SPEAK]+ equals 1 or more of a character not from `SPEAK`
-* EP|IP|EF equals `EP` or `IP` or `EF`
-* HE|LL|O+ equals `HE` or `LL` or 1 or more of `O`
+* EP\|IP\|EF equals `EP` or `IP` or `EF`
+* HE\|LL\|O+ equals `HE` or `LL` or 1 or more of `O`
 * [PLEASE]+ equals 1 or more of a character from `PLEASE`  
 
 ### Naughty
 
-|                   | (A|B|C)\1 | (AB|OE|SK) |
+|                   | (A\|B\|C)\1 | (AB\|OE\|SK) |
 |:-----------------:|:---------:|:----------:|
 | <b>.\*M?O.\*<\b>  | B         | O          |
 | <b>(AN|FE|BE)<\b> | B         | E          |
@@ -26,7 +26,7 @@ Explaination:
 
 ### Ghost
 
-|                 | [COBRA]+ | (AB|O|OR)+ |
+|                 | [COBRA]+ | (AB\|O\|OR)+ |
 |:---------------:|:--------:|:----------:|
 | <b>(.)+\1<\b>   | B        | O          |
 | <b>[^ABRC]+<\b> | B        | E          |
@@ -54,7 +54,7 @@ Explaination:
 
 |                 | \d[2480] | 56|94|73 |
 |:---------------:|:--------:|:--------:|
-| <b>18|19|20<\b> | *        | *        |
+| <b>18\|19\|20<\b> | *        | *        |
 | <b>[6789]\d<\b> | /        | /        |
 
 Explaination: 
