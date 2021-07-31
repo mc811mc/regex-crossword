@@ -2,7 +2,7 @@
 
 |                 | A&#124;B |
 |:---------------:|:--------:|
-| <b>A&#124;Z</b> | A        |
+| <b>A&#124;Z | A        |
 
 Explaination: 
 * A&#124;Z equals `A` or `Z`
@@ -12,7 +12,7 @@ Explaination:
 
 |               | [ABC] |
 |:-------------:|:-----:|
-| <b>[BDF]<\b>  | B     |
+| <b>[BDF] | B     |
 
 Explaination: 
 * \[ABC\] equals 1 or more of the letters of  `ABC`
@@ -23,7 +23,7 @@ Explaination:
 
 |                | \[^AB\] |
 |:--------------:|:-------:|
-| <b>\[ABC\]<\b> | C       |
+| <b>\[ABC\] | C       |
 
 Explaination: 
 * \[^AB\] equals letters except `A` and `B`
@@ -33,8 +33,8 @@ Explaination:
 
 |             | A\*      |
 |:-----------:|:--------:|
-| <b>A<\b>    | A        |
-| <b>AB\*<\b> | A        |
+| <b>A   | A        |
+| <b>AB\* | A        |
 
 Explaination: 
 * A\* equals 0 or more `A`
@@ -45,8 +45,8 @@ Explaination:
 
 |            | A?B? |
 |:----------:|:----:|
-| <b>A|C<\b> | A    |
-| <b>B<\b>   | B    |
+| <b>A|C | A    |
+| <b>B   | B    |
 
 Explaination: 
 * A?B? equals 0 or more `A` and 0 or more `B`
@@ -57,8 +57,8 @@ Explaination:
 
 |            | A+ |
 |:----------:|:--:|
-| <b>A|B<\b> | A  |
-| <b>A|Z<\b> | A  |
+| <b>A|B | A  |
+| <b>A|Z | A  |
 
 Explaination: 
 * A+ equals 1 or more `A`
@@ -69,8 +69,8 @@ Explaination:
 
 |            | (A)\1 |
 |:----------:|:-----:|
-| <b>A|B<\b> | A     |
-| <b>A|B<\b> | A     |
+| <b>A\|B | A     |
+| <b>A\|B | A     |
 
 Explaination: 
 * (A)\1 equals backreference to group `(A)`
@@ -81,8 +81,8 @@ Explaination:
 
 |             | A{2,} |
 |:-----------:|:-----:|
-| <b>A{1}<\b> | A     |
-| <b>B|A<\b>  | A     |
+| <b>A{1} | A     |
+| <b>B\|A  | A     |
 
 Explaination: 
 * (A)\1 equals only 2 or more `A`
@@ -91,9 +91,9 @@ Explaination:
 
 ### Space
 
-|           | A|\s |
+|           | A\|\s |
 |:---------:|:----:|
-| <b>\s<\b> | \s   |
+| <b>\s | \s   |
 
 Explaination: 
 * A|\s equals `A` or `Space`
