@@ -1,6 +1,6 @@
-# [Regex Crossword](https://regexcrossword.com/) Solutions with Explanations 
+# <img src="https://regexcrossword.com/img/logo.svg" height="24"> [Regex Crossword](https://regexcrossword.com/) Solutions with Explanations 
 
-Welcome to my <img src="https://regexcrossword.com/img/logo.svg" height="24"> [Regex Crossword](https://regexcrossword.com/) solutions repository.
+Welcome to my [Regex Crossword](https://regexcrossword.com/) solutions repository.
 
 I noticed that most repositories didn't include explanations so I added them to all the questions on the website.
 
