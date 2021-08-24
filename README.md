@@ -1,4 +1,4 @@
-# [Regex Crossword](https://regexcrossword.com/) Solutions with Explanations 
+# <img src="https://regexcrossword.com/img/logo.svg" height="24"> [Regex Crossword](https://regexcrossword.com/) Solutions with Explanations 
 
 Welcome to my [Regex Crossword](https://regexcrossword.com/) solutions repository.
 
