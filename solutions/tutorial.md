@@ -4,7 +4,7 @@
 |:---------------:|:--------:|
 | <b>A\|Z | A        |
 
-Explanation: 
+Explanation:
 * A&#124;Z equals `A` or `Z`
 * A&#124;B equals `A` or `B`
 
@@ -14,7 +14,7 @@ Explanation:
 |:-------------:|:-----:|
 | <b>[BDF] | B     |
 
-Explanation: 
+Explanation:
 * \[ABC\] equals 1 or more of the letters of  `ABC`
 * \[BDF\] equals 1 or more of the letters of  `BDF`
 
@@ -25,7 +25,7 @@ Explanation:
 |:--------------:|:-------:|
 | <b>\[ABC\] | C       |
 
-Explanation: 
+Explanation:
 * \[^AB\] equals letters except `A` and `B`
 * \[BDF\] equals 1 or more of the letters of `ABC`
 
@@ -36,7 +36,7 @@ Explanation:
 | <b>A   | A        |
 | <b>AB\* | A        |
 
-Explanation: 
+Explanation:
 * A\* equals 0 or more `A`
 * A equals `A`
 * AB\* equals `A` followed by 0 or more `B`
@@ -48,7 +48,7 @@ Explanation:
 | <b>A|C | A    |
 | <b>B   | B    |
 
-Explanation: 
+Explanation:
 * A?B? equals 0 or more `A` and 0 or more `B`
 * A|C equals `A` or `C`
 * B equals `B`  
@@ -60,7 +60,7 @@ Explanation:
 | <b>A|B | A  |
 | <b>A|Z | A  |
 
-Explanation: 
+Explanation:
 * A+ equals 1 or more `A`
 * A|B equals `A` or `B`
 * A|Z equals `A` or `Z`   
@@ -72,7 +72,7 @@ Explanation:
 | <b>A\|B | A     |
 | <b>A\|B | A     |
 
-Explanation: 
+Explanation:
 * (A)\1 equals backreference to group `(A)`
 * A|B equals `A` or `B`
 * A|B equals `A` or `B`
@@ -84,7 +84,7 @@ Explanation:
 | <b>A{1} | A     |
 | <b>B\|A  | A     |
 
-Explanation: 
+Explanation:
 * (A)\1 equals only 2 or more `A`
 * A{1} equals only 1 `A`
 * B|A equals `B` or `A`
@@ -95,6 +95,6 @@ Explanation:
 |:---------:|:----:|
 | <b>\s | \s   |
 
-Explanation: 
+Explanation:
 * A|\s equals `A` or `Space`
 * \s equals `Space`
