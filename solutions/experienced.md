@@ -89,3 +89,26 @@ Explanation:
 * [RUNT]* equals 1 or more of a character from `RUNT`
 * O.*[HAT] equals `O` followed by 1 or more of any character except newline followed by a character from `HAT`
 * (.)*DO\1 equals 0 or more of group of `*` followed by`DO` followed by a backreference to 1st group, `*`
+  
+### Hamlet
+
+|             | [RUTH]*(OE|EO)[RB]* | (BG|ON|KK)+[RIF]+ | (MN|BO|FI)[EU]{2,} | (KT|AL|ET)+G | [OH](PR|AX|TR)+ |
+|:-----------:|:--------------:|:------------:|:-----------:|:-------:|
+| <b>[IT](O)*(BE|AD)*\1  | T              | O            | B           | E       | O |
+| <b>[NORMAL]+T{2} | R              | N            | O           | T       | T |
+| <b>.*(XA|BE).* | O              | B            | E           | A       | R|
+| <b>(EG|UL){2}[ALF]* | E              | G            | U           | L    | A |
+| <b>[REQ]*(G|P)(.)+ | R              | R            | E           | G       |X|
+
+Explanation:
+* [RUTH]*(OE|EO)[RB]* equals a character not from `NRU` followed by group of `NO` or `ON`
+* (BG|ON|KK)+[RIF]+ equals 1 or more of group of `D` or `FU` or `UF`
+* (MN|BO|FI)[EU]{2,} equals 0 or more of group of `FO` or `A` or `R`
+* (KT|AL|ET)+G equals 0 or more of group of `N` or `A`
+* [OH](PR|AX|TR)+
+  
+* [IT](O)*(BE|AD)*\1 equals 1 or more of a character from `RUNT`
+* [NORMAL]+T{2} equals `O` followed by 1 or more of any character except newline followed by a character from `HAT`
+* .*(XA|BE).* equals 0 or more of group of `*` followed by`DO` followed by a backreference to 1st group, `*`
+* (EG|UL){2}[ALF]* equals either EG or UL 2 times followed by 0 or more of the optional group of A, L, F
+* [REQ]*(G|P)(.)+ equals 0 or more of the optional group R, E, Q
